@@ -1,4 +1,4 @@
-# Revisao2024# Gerador de Senha
+# Revisao2024 Gerador de Senha
 
 Este é um programa simples em C# que gera senhas seguras com base nas preferências do usuário. O programa permite que o usuário escolha a quantidade de dígitos, bem como incluir ou excluir números, símbolos, letras maiúsculas e minúsculas na senha gerada.
 
