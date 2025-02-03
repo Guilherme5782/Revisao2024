@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Padaria DelicioPão</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">  
+</head>
+
+<body>
+  
+  <header class="home" id="home">
+    <div class="container">
+      <!-- Menu hambúrguer para dispositivos móveis -->
+      <div class="hamburguer-menu">
+        <i class="fas fa-bars toggle"></i>
+        <i class="fas fa-times toggle"></i>
+      </div>
+      <nav class="d-flex align-items-center justify-content-center justify-content-lg-between">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid" src="IMG/Logo.png" width="240px" alt="Logo da Brød Padaria">
+        </a>
+        <ul class="nav-list text-center p-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Início</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Cardápio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#chefs">Nossa Equipe</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="hero-text w-100 text-white px-2 px-sm-0">
+        <h2 class="display-4">Bem-Vindo</h2>
+        <p class="lead mb-4"></p>
+        <a class="btn" href="#">Explore</a>
+        <a class="btn ms-3" href="https://www.google.com/maps/search/rua+catacal+bairro+vila+celeste+36/@-19.4487125,-42.5649343,3666m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDEyNi4wIKXMDSoASAFQAw%3D%3D">Encontre uma loja</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="about">
+      <div class="container">
+        <div class="row align-items-lg-center">
+          <div class="col-12 col-md-6 text-center text-md-start" data-aos="fade-right">
+            <div class="section-heading mb-3">
+              <h4>Descubra</h4>
+              <h2 class="display-4">Nossa História</h2>
+            </div>
+            <p>A Padaria DelicioPão nasceu do amor pela panificação artesanal. Com ingredientes selecionados e técnicas tradicionais, trazemos os melhores produtos para você.</p>
+            <a class="btn mt-4 mb-5 mb-md-0" href="#">Saiba mais</a>
+          </div>
+          <div class="col-12 col-md-6" data-aos="fade-left">
+            <img class="img-fluid" src="IMG/imagemdapadaria.webp" alt="Imagem sobre a nossa padaria">
+          </div>.
+          
+        </div>
+      </div>
+    </section>
+
+    <section class="info" id="info">
+      <div class="container">
+        <div class="row text-center text-white">
+          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-up">
+            <div class="shop-info">
+              <i class="far fa-clock mb-3"></i>
+              <h2 class="mb-4">Horário de Funcionamento</h2>
+              <p>Segunda a Sexta: 8:00am - 6:00pm</p>
+              <p>Sábado e Domingo: 8:00am - 1:00pm</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-down">
+            <div class="shop-info">
+              <i class="fas fa-map-marked-alt mb-3"></i>
+              <h2 class="mb-4">Nossa Localização</h2>
+              <address>
+                1234 Primeira Avenida <br>
+                Cidade Nova, NY 1231
+              </address>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 mb-4 mb-md-0" data-aos="fade-right">
+            <div class="shop-info">
+              <i class="fas fa-mobile-alt mb-3"></i>
+              <h2 class="mb-4">Entre em Contato</h2>
+              <p>Telefone: (800) 555-5555</p>
+              <p>Email: contato@brodpadaria.com</p>
+            </div>
+          </div>
+        </div>
+        <hr class="mt-5">
+      </div>
+
+      <div class="menu-tasty container-fluid p-0" id="menu">
+        <div class="section-heading my-5 text-center">
+          <h4 class="text-white">Nossos Produtos Deliciosos</h4>
+          <h2 class="display-4">O Cardápio</h2>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-0 order-xl-0">
+            <img class="img-fluid" src="IMG/bolo.jpg" alt="Item do cardápio 1">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1 point-left" data-aos="fade-in">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h2>O Bolo</h2>
+              <p>Este bolo é incrível! Recomendo para todos.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-3 order-xl-2">
+            <img class="img-fluid" src="IMG/cupcakes.jpg" alt="Item do cardápio 2">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-3 point-left">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h2>Cupcakes</h2>
+              <p>Esses Cupcakes são deliciosos! Vai te surpreender.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-4">
+            <img class="img-fluid" src="IMG/bombom.jpg" alt="Item do cardápio 3">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5 point-left">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h2>Os Bombons</h2>
+              <p>Esses bombons são a combinação perfeita de crocância e sabor.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-0">
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-1 order-xl-1">
+            <img class="img-fluid" src="images/menu-item-4.jpg" alt="Item do cardápio 4">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-0 order-xl-0 point-right">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h2>O Pão Artesanal</h2>
+              <p>O nosso pão artesanal é feito com os melhores ingredientes e amor.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-2 order-xl-3">
+            <img class="img-fluid" src="images/menu-item-5.jpg" alt="Item do cardápio 5">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-2 point-right">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h2>Os Cookies</h2>
+              <p>Cookies crocantes e irresistíveis para o seu prazer.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Saiba mais</a>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-5 order-xl-5">
+            <img class="img-fluid" src="IMG/caçarolas.jpg" alt="Item do cardápio 6">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-2 order-sm-4 order-xl-4 point-right">
+            <div class="menu-item-desc">
+              <h6>$10</h6>
+              <h2>Caçarola</h2>
+              <p>Uma caçarola tem uma cremosidade incrível.</p>
+              <a href="#" class="btn mt-3 d-none d-xl-block">Saiba mais</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="chef" id="chefs">
+      <div class="container">
+        <div class="section-heading my-5 text-center">
+          <h4>Conheça</h4>
+          <h2 class="display-4">Nosso Chef</h2>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-12 col-md-4" data-aos="fade-right">
+            <img src="IMG/Chef1.avif" alt="Chef 1" class="img-fluid">
+            <div class="card-body">
+              <h2>Olivia Logan</h2>
+              <h6>Especialista em Cupcakes</h6>
+              <p>Olivia é uma incrível chef de confeitaria!</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-up">
+            <img src="IMG/chef2.avif" alt="Chef 2" class="img-fluid">
+            <div class="card-body">
+              <h2>Jessica Lewis</h2>
+              <h6>Chef Master</h6>
+              <p>Jessica é uma mestre na arte da panificação!</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4" data-aos="fade-left">
+            <img src="IMG/chef3.avif" alt="Chef 3" class="img-fluid">
+            <div class="card-body">
+              <h2>James Holt</h2>
+              <h6>Especialista em Bolos</h6>
+              <p>James cria bolos incríveis e saborosos!</p>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-5">
+      &copy; Brød Padaria 2025
+    </footer>
+  </main>
+
+  <!-- Scripts de dependências -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts.js"></script>
+</body>
+</html>
